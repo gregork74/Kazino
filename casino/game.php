@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="photos/diceFive.png" type="image/png">
+	<link rel="icon" href="photos/favicon3.png" >
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

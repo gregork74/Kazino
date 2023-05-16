@@ -135,22 +135,22 @@
 			ctx = canvas.getContext("2d");	
 			
 			if(temp == 1){
-				img.src='photos/diceOne.png';
+				img.src='photos/One.png';
 			}
 			else if(temp == 2){
-				img.src='photos/diceTwo.png';
+				img.src='photos/Two.png';
 			}
 			else if(temp == 3){
-				img.src='photos/diceThree.png';
+				img.src='photos/Three.png';
 			}
 			else if(temp == 4){
-				img.src='photos/diceFour.png';
+				img.src='photos/Four.png';
 			}
 			else if(temp == 5){
-				img.src='photos/diceFive.png';
+				img.src='photos/Five.png';
 			}
 			else if(temp == 6){
-				img.src='photos/diceSix.png';
+				img.src='photos/Six.png';
 			}
 			
 			img.onload = function(){

@@ -5,13 +5,14 @@ body{
 	height: 100%; 
 	background-position: center;
 	background-repeat: no-repeat;
-	font-family: 'Roboto Slab';
+	font-family: Arial, Helvetica, sans-serif;
+}
+.playerTitle{
+	text-transform: uppercase;
+	position: relative;
+	top: 15%;
 }
 
-@font-face {
-    font-family: 'Roboto Slab';
-    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
-}
 
 #menu{
 	margin: 0;
@@ -56,9 +57,7 @@ body{
 	background-color: #020202;
 }
 
-.playerGame{
-	height: 50%;
-}
+
 
 #playerOne{
 	left: 7%;
@@ -91,9 +90,25 @@ body{
 	color: rgb(51, 51, 51);
 	text-transform: uppercase;
 }
+#rounds{
+	width: 60px;
+	height: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	border: none;
+	
+	background-color: #fcfcfc;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 16px;
+	border-radius: 15px;
+}
 
 .playerInput:focus, #rounds:focus{
 	outline: none;
+}
+.playerGame{
+	height: 50%;
 }
 
 #submit, #results, .roll{
@@ -114,12 +129,6 @@ body{
 	font-size: 23px;
 	font-family: Arial, Helvetica, sans-serif;
 	cursor: pointer;
-}
-
-.playerTitle{
-	text-transform: uppercase;
-	position: relative;
-	top: 15%;
 }
 
 
@@ -239,19 +248,7 @@ body{
 	align-items: center;
 }
 
-#rounds{
-	width: 60px;
-	height: 22px;
-	font-family: Arial, Helvetica, sans-serif;
-	
-	border: none;
-	
-	background-color: #fcfcfc;
-	font-family: Arial, Helvetica, sans-serif;
-	color: black;
-	font-size: 16px;
-	border-radius: 15px;
-}
+
 
 #roundsWrapper{
 	position: absolute;

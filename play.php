@@ -7,6 +7,7 @@ session_start();
 <head>
     <title>Dice Roll</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon3.png">
 </head>
 <body>
     <div class="container">

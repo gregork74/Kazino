@@ -9,7 +9,9 @@ body{
     display: flex;
     background-image: url(img/casino-background-4jme29iyb1t3gxep.jpg);
     background-repeat: repeat;
+    
 }
+
 html{
     overflow: hidden;
 }
@@ -25,7 +27,7 @@ html{
     margin: auto;
     border-radius: 7px;
     font-family: 'Grand Casino', sans-serif;
-    border: 10px solid rgb(62, 64, 128);
+    border: 10px solid rgb(63,88,119);
     color: white;
 }
 
@@ -40,12 +42,13 @@ form .user-input {
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
-    border: 4px solid rgb(62, 64, 128);
+    border: 4px solid rgb(63,88,119);
     border-radius: 7px;
     padding: 10px;
     font-size:20px;
     background-color: rgba(255, 255, 255, 0.445);
     color: white;
+    
 }
 
 form label {
@@ -71,6 +74,12 @@ form input[type="submit"] {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
+}
+.diceroll{
+    border: 4px solid rgb(63,88,119);
+    padding: 13px; 
+    border-radius:7px;
+    background-color:rgba(255, 255, 255, 0.445);
 }
 
 .dice-container {
@@ -101,6 +110,8 @@ form input[type="submit"] {
     flex-flow: row;
     gap: 20px;
     align-items: center;
+    background-image: url(img/giphy.gif);
+    background-repeat: no-repeat;
 }
 
 .winner-heading {
@@ -110,18 +121,17 @@ form input[type="submit"] {
 
 .winner-name {
     font-weight: bold;
+    font-size: 23px;
 }
 .daddy{
     display: flex;
     flex-flow: row;
     gap: 20px;
-    height: 200px;
     align-items: center;
 }
 .title-div{
     margin: auto;
     height: 130px;
-    
 }
 .parentdaddy{
     height: 300px;
@@ -138,13 +148,38 @@ form input[type="submit"] {
 .users-container{
     display: flex;
     flex-flow: row;
+    gap:10px;
 }
 #back-button{
     height: 50px; 
     width:170px; 
+    color: white;
     font-size: 23px;
-    border: 3px solid rgb(62, 64, 128);
+    border: 3px solid rgb(63,88,119);
     border-radius:7px;
     font-family: 'Grand Casino', sans-serif;
     background-color:rgba(255, 255, 255, 0.445);
+}
+
+#back-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(63, 88, 119);
+    cursor: pointer;
+}
+
+#submit-button{
+    color:white; 
+    height: 50px; 
+    width:170px; 
+    font-size: 23px;
+    border: 3px solid rgb(63,88,119);
+    border-radius:7px;
+    font-family: 'Grand Casino', sans-serif;
+    background-color:rgba(255, 255, 255, 0.445);
+}
+
+#submit-button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(63, 88, 119);
+    cursor: pointer;
 }
